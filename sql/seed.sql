@@ -29,9 +29,9 @@ CREATE TABLE singles (
 ) ENGINE=InnoDB;
 
 INSERT INTO artists (name, slug, image) VALUES
-('The Weeknd', 'the-weeknd', 'https://i.imgur.com/4YQb1pU.jpeg'),
-('Dua Lipa', 'dua-lipa', 'https://i.imgur.com/2mQxXfA.jpeg'),
-('Kendrick Lamar', 'kendrick-lamar', 'https://i.imgur.com/3k3X2MZ.jpeg');
+('The Weeknd', 'the-weeknd', ''),
+('Dua Lipa', 'dua-lipa', ''),
+('Kendrick Lamar', 'kendrick-lamar', '');
 
 INSERT INTO genres (name, slug) VALUES
 ('Pop', 'pop'),
@@ -39,8 +39,8 @@ INSERT INTO genres (name, slug) VALUES
 ('Hip-Hop', 'hip-hop');
 
 INSERT INTO singles (title, slug, duration_seconds, release_year, artist_id, genre_id, track_image) VALUES
-('Blinding Lights', 'blinding-lights', 200, 2019, 1, 1, 'https://i.imgur.com/YdS0nqG.jpeg'),
-('Save Your Tears', 'save-your-tears', 215, 2020, 1, 2, 'https://i.imgur.com/8WmVSFh.jpeg'),
-('Levitating', 'levitating', 203, 2020, 2, 1, 'https://i.imgur.com/5W8C8jX.jpeg'),
-('HUMBLE.', 'humble', 177, 2017, 3, 3, 'https://i.imgur.com/5o7C3Uc.jpeg'),
-('Starboy', 'starboy', 230, 2016, 1, 1, 'https://i.imgur.com/6Byq8zP.jpeg');
+('Blinding Lights', 'blinding-lights', 200, 2019, 1, 1, ''),
+('Save Your Tears', 'save-your-tears', 215, 2020, 1, 2, ''),
+('Levitating', 'levitating', 203, 2020, 2, 1, ''),
+('HUMBLE.', 'humble', 177, 2017, 3, 3, ''),
+('Starboy', 'starboy', 230, 2016, 1, 1, '');
