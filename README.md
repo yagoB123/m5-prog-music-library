@@ -1,11 +1,2 @@
-# M5PROG Music Library
-
-## Quick start
-1. Copy `.env.example` to `.env`.
-2. Run `docker compose up`.
-3. Go to phpMyAdmin: http://localhost:8805 (user: app, pass: app, db: music_library).
-4. Import `sql/seed.sql`.
-5. Run `npm install` and `npm run dev`.
-6. Open http://localhost to see the app.
-
-Features: Overview, Single detail, Search, SEO links for artist/genre.
+dit is mijn music library. 
+waar liep ik tegen aan. ik vindt de docker en sql erg lastig maar met wat hulp van jasper is het uiteindelijk gelukt en werkt alles zo als het hoort. ook was het lezen van het project erg lastig waardoor ik er geen motivatie had.
